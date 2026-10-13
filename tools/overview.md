@@ -11,7 +11,7 @@ do usuário para aparecer.
 
 | Ferramenta | O que faz |
 | --- | --- |
-| [Clonar Tabela](clone-table.md) | Cria tabelas novas copiando a estrutura de tabelas existentes, com ou sem os dados — inclui os modelos prontos (Kanban, Cartões, Mosaico, Documento, Fórum, Calendário) |
+| [Clonar Tabela](clone-table.md) | Cria uma tabela nova copiando a estrutura (e, opcionalmente, os dados) de uma tabela já existente no ambiente |
 | [Importar / Exportar Tabela](import-export.md) | Exporta uma tabela para um arquivo, ou importa uma tabela a partir de um arquivo exportado |
 | [Gerador de Dados de Teste](test-data-generator.md) | Gera registros fictícios em massa numa tabela, para testar ou demonstrar |
 | [Cofre de Senhas](password-vault.md) | Guarda segredos (senhas, chaves) de forma criptografada, organizados em canais privados |

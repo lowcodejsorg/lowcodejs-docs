@@ -20,7 +20,7 @@ independente e pode ser alterado a qualquer momento.
 | **Assistente de IA** | Chave e ativação do chat com IA — ver [Assistente de IA](ai-assistant.md) |
 | **Banco das tabelas de dados** | Somente leitura: mostra se a instalação usa o banco interno ou PostgreSQL para os dados das tabelas — decidido na instalação e não muda depois |
 | **Histórico de auditoria** | Acesso ao registro de ações realizadas na instalação |
-| **Clonar a partir de um modelo** | Atalho para a ferramenta [Clonar Tabela](../tools/clone-table.md) a partir das Configurações |
+| **Modelo de Tabelas** | Quais tabelas ficam disponíveis como modelo pronto na tela de criação de tabela (Kanban, Cartões, Mosaico, Documento, Fórum, Calendário) |
 
 ![Tela de Configurações, com os blocos de ajuste da instalação](images/configuracoes.png)
 *Tela de Configurações: cada bloco (Nome do Sistema, Idioma, Paginação, Modelo de Tabelas, Logos...) é editado de forma independente.*

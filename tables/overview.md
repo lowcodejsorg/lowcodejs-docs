@@ -17,10 +17,11 @@ Você pode:
 
 - Começar **do zero**, adicionando campos um a um.
 - Usar um **modelo pronto** (Kanban, Cartões, Mosaico, Documento, Fórum,
-  Calendário) pela ferramenta [Clonar Tabela](../tools/clone-table.md), que já
-  entrega os campos certos para aquele estilo.
-- **Clonar** a estrutura (e, opcionalmente, os dados) de uma tabela já
-  existente no mesmo ambiente.
+  Calendário), direto na tela de criação — o modelo já entrega os campos
+  certos para aquele estilo de visualização. Quais modelos ficam disponíveis
+  é controlado em **Configurações** → "Modelo de Tabelas".
+- [**Clonar**](../tools/clone-table.md) a estrutura (e, opcionalmente, os
+  dados) de uma tabela já existente no mesmo ambiente.
 - Instalar uma tabela pronta a partir do
   [Repositório de Apps](../settings/apps-repository.md).
 

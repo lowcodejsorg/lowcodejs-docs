@@ -23,10 +23,11 @@ Kanban exige um campo de dropdown para servir de coluna).
 ## Modelos prontos
 
 Para a maioria das visualizações mais estruturadas (Kanban, Cartões, Mosaico,
-Documento, Fórum, Calendário), a ferramenta
-[Clonar Tabela](../tools/clone-table.md) oferece modelos prontos, com os
-campos certos já configurados — é o caminho mais rápido para começar, em vez
-de montar os campos um a um manualmente.
+Documento, Fórum, Calendário), a própria tela de criar uma tabela nova
+oferece modelos prontos, com os campos certos já configurados — é o caminho
+mais rápido para começar, em vez de montar os campos um a um manualmente.
+Quais modelos aparecem ali é controlado em **Configurações** → "Modelo de
+Tabelas".
 
 ## Como a plataforma decide o que é possível
 

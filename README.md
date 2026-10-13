@@ -44,7 +44,7 @@ Docker para quem for hospedar a própria instância.
 | **Automações** | Scripts que rodam ao salvar ou carregar um registro, e um modelador visual de processos (BPM) |
 | **Permissões** | Grupos de usuário com hierarquia, capacidades por área, permissões por ação em cada tabela e perfis de membro |
 | **Ambientes** | Múltiplos workspaces isolados dentro da mesma instalação |
-| **Ferramentas** | Clonar tabela com modelos prontos, importar/exportar, gerar dados de teste, cofre de senhas, importar de outra instalação |
+| **Ferramentas** | Clonar tabela, importar/exportar, gerar dados de teste, cofre de senhas, importar de outra instalação |
 | **Assistente de IA** | Chat integrado que entende o contexto das suas tabelas |
 | **Extensões** | Plugins, módulos e ferramentas que ampliam a plataforma sem alterar o núcleo |
 

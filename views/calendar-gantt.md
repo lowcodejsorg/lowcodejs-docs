@@ -40,10 +40,9 @@ Gantt também fica disponível para ela.
 
 ## Começando com um modelo pronto
 
-A ferramenta [Clonar Tabela](../tools/clone-table.md) oferece um modelo
-pronto de Calendário, já com os campos de título, descrição, datas e cor
-configurados. Para o Gantt, use o modelo de Kanban — ele já habilita as duas
-visualizações.
+Ao criar uma tabela nova, o modelo pronto de Calendário já vem com os campos
+de título, descrição, datas e cor configurados. Para o Gantt, use o modelo de
+Kanban — ele já habilita as duas visualizações.
 
 ## Próximos passos
 

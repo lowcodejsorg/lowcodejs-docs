@@ -27,6 +27,6 @@ que serve como repositório central para outras.
 
 ## Próximos passos
 
-- [Clonar Tabela](../tools/clone-table.md) — outra forma de começar uma
-  tabela a partir de um modelo, dentro do próprio ambiente.
+- [O que é uma tabela](../tables/overview.md) — outras formas de começar uma
+  tabela, inclusive a partir de um modelo pronto.
 - [Tela de Configurações](overview.md)

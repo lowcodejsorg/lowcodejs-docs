@@ -24,8 +24,8 @@ pode:
 - Começar do zero, dando um nome (o identificador/slug é gerado
   automaticamente a partir dele).
 - Usar um **modelo pronto** (Kanban, Cartões, Mosaico, Documento, Fórum ou
-  Calendário) pela ferramenta [Clonar Tabela](../tools/clone-table.md), que já
-  vem com os campos certos para aquele estilo de visualização.
+  Calendário), direto na tela de criação — já vem com os campos certos para
+  aquele estilo de visualização.
 
 ## 3. Adicione campos
 

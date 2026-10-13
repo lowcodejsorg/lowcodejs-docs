@@ -32,8 +32,8 @@ responsáveis, progresso de tarefas internas e cor da coluna.
 
 Um cartão de Kanban pode conter uma lista de subtarefas, modelada como um
 [grupo de campos](../tables/field-groups.md) com um título e uma marcação de
-concluída por tarefa — é assim que o modelo pronto de Kanban (ver
-[Clonar Tabela](../tools/clone-table.md)) já vem configurado.
+concluída por tarefa — é assim que o modelo pronto de Kanban já vem
+configurado.
 
 ## Comentários e menções
 
@@ -43,10 +43,9 @@ real.
 
 ## Começando com um modelo pronto
 
-A forma mais rápida de ter um Kanban funcional é usar o modelo pronto de
-Kanban pela ferramenta [Clonar Tabela](../tools/clone-table.md), que já
-inclui os campos de lista (dropdown), tarefas e comentários configurados
-corretamente.
+A forma mais rápida de ter um Kanban funcional é escolher o modelo pronto de
+Kanban ao criar a tabela — ele já inclui os campos de lista (dropdown),
+tarefas e comentários configurados corretamente.
 
 ## Pré-requisitos para habilitar manualmente
 

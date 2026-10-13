@@ -24,10 +24,10 @@ mais elaboradas, não só texto simples.
 
 ## Começando com um modelo pronto
 
-A forma recomendada de montar um Fórum é usar o modelo pronto pela
-ferramenta [Clonar Tabela](../tools/clone-table.md), que já cria a estrutura
-de canais e mensagens corretamente — incluindo os campos exatos que a
-plataforma espera para reconhecer a tabela como um Fórum.
+A forma recomendada de montar um Fórum é escolher o modelo pronto ao criar a
+tabela — ele já cria a estrutura de canais e mensagens corretamente,
+incluindo os campos exatos que a plataforma espera para reconhecer a tabela
+como um Fórum.
 
 ## Pré-requisitos para habilitar manualmente
 

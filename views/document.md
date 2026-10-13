@@ -28,9 +28,8 @@ inteira com hierarquia de capítulos e seções.
 
 ## Começando com um modelo pronto
 
-A ferramenta [Clonar Tabela](../tools/clone-table.md) oferece um modelo
-pronto de Documento, com o campo de categoria e o campo de texto longo já
-configurados.
+Ao criar uma tabela nova, o modelo pronto de Documento já vem com o campo de
+categoria e o campo de texto longo configurados.
 
 ## Próximos passos
 
