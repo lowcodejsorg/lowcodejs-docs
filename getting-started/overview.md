@@ -1,53 +1,62 @@
-# Visão Geral
+# Visão Geral da Interface
 
-LowCodeJS é uma plataforma low-code self-hostable para criação de aplicações
-com tabelas dinâmicas, formulários, dashboards e automações. O usuário
-configura a estrutura de dados pela UI e o backend monta tudo em runtime, sem
-etapa de geração/compilação de código específico da aplicação.
+Um tour rápido pelas áreas principais da plataforma, vistas de quem está
+logado.
 
-## Modelo de uso
+## Menu lateral
 
-- O usuário cria **tabelas** com campos configuráveis (texto curto/longo,
-  data, dropdown, relacionamento, arquivo, usuário, grupo de campos, entre
-  outros).
-- Cada tabela pode ter **9 estilos de visualização**: lista, galeria,
-  documento, cartão, mosaico, kanban, fórum, calendário e gantt.
-- Tabelas podem ter **scripts de usuário** (`beforeSave`, `afterSave`,
-  `onLoad`) executados em sandbox isolado no servidor, permitindo lógica de
-  negócio sem precisar de deploy.
-- **Relacionamentos** entre tabelas (1:1, 1:N, N:N) são modelados pela UI e
-  materializados como referência (Mongo) ou chave estrangeira real (Postgres).
-- **Menus** e **páginas customizadas** organizam a navegação do app final.
-- **Dashboards** compõem gráficos e cartões de métrica sobre os dados das
-  tabelas.
-- **RBAC** com grupos customizáveis controla quem vê e edita o quê, até o
-  nível de campo e linha.
-- Múltiplos **ambientes** (workspaces) isolados podem coexistir na mesma
-  instalação, cada um com seu próprio conjunto de tabelas, usuários e dados.
+O menu lateral é o ponto de partida para quase tudo. Os itens disponíveis
+dependem do grupo e das capacidades do usuário logado (ver
+[Permissões de tabela](../tables/permissions.md) e
+[Usuários e Grupos](../settings/users-and-groups.md)) — quem não é MASTER ou
+ADMINISTRATOR, por exemplo, pode não ver "Usuários" ou "Configurações".
 
-## Arquitetura em uma frase
+| Item do menu | Para que serve |
+| --- | --- |
+| **Dashboard** | Painel com gráficos e cartões de métrica sobre os dados do ambiente |
+| **Tabelas** | Lista de todas as tabelas que você tem acesso; ponto de entrada para criar, abrir e configurar tabelas |
+| **Usuários** | Cadastro de contas de usuário da instalação |
+| **Grupos** | Grupos de permissão (RBAC) — quem pode fazer o quê |
+| **Menus** | Organização da navegação: itens de menu customizados, inclusive apontando para módulos de extensão ou páginas |
+| **Ferramentas** | Utilitários como Clonar Tabela, Importar/Exportar, Gerador de Dados de Teste, BPM Modeler |
+| **Extensões** | Tela de gestão (ativar/desativar) dos plugins, módulos e ferramentas instalados — restrita ao MASTER |
+| **Repositório** | Catálogo de apps prontos para instalar com um clique |
+| **Ambientes** | Lista dos workspaces da instalação e troca entre eles |
+| **Configurações** | Configurações gerais da instalação — ver [Tela de Configurações](../settings/overview.md) |
+| **Histórico** | Auditoria: quem fez o quê e quando |
+| **Perfil** | Dados da própria conta |
 
-Backend Fastify + TypeScript fala direto com o driver do MongoDB (sem ODM); o
-schema de cada tabela do low-code (`_schema`) é interpretado em runtime por um
-`RowStore`, que grava os dados numa collection Mongo ou — se a instalação
-escolheu assim no Setup Wizard — numa tabela Postgres real, com coluna tipada
-por campo. O frontend é um SPA com SSR (TanStack Start) que consome a API REST
-e um canal Socket.IO para notificações e chat.
+Itens de menu customizados (criados em **Menus**) também podem apontar para
+tabelas específicas, páginas ou módulos de uma extensão — o que aparece no
+menu lateral do dia a dia de um app pronto normalmente é um subconjunto
+pensado por quem montou a aplicação.
 
-## Casos de uso típicos
+## Áreas de uma tabela
 
-- CRM / ERP internos montados sem escrever backend.
-- Formulários e fluxos de aprovação com automações via script.
-- Portais internos com controle de acesso granular por grupo/linha/campo.
-- Catálogos e bases de conhecimento publicados como tabelas públicas.
-- Extensão da plataforma com plugins/módulos/ferramentas próprias quando o
-  low-code não cobre um caso específico.
+Ao abrir uma tabela, você normalmente encontra:
+
+- A **visualização atual** (lista, kanban, calendário...) com os registros.
+- Um botão para **trocar de visualização** ou configurar uma nova.
+- **Filtros** na lateral ou no topo, para refinar o que aparece.
+- Um botão para **criar um novo registro**, que abre o formulário montado a
+  partir dos campos configurados na tabela.
+- Um menu de configuração da tabela — campos, permissões, membros, métodos
+  (automações) — normalmente restrito a quem administra aquela tabela.
+
+## Notificações
+
+Um sino no cabeçalho mostra notificações em tempo real: menções em
+comentários (Kanban, Fórum), atribuições de membro e outros eventos
+relevantes configurados por automação.
+
+## Assistente de IA
+
+Quando ativado pelo MASTER em Configurações, um chat fica disponível para
+conversar sobre os dados da instalação, enviar imagens e documentos (PDF) e
+disparar ações através de ferramentas da própria plataforma.
 
 ## Próximos passos
 
-- [Instalação](installation.md) para subir a plataforma localmente ou em um
-  servidor.
-- [Primeiros Passos](quickstart.md) para os comandos de desenvolvimento do
-  dia a dia.
-- [Arquitetura](../architecture/overview.md) para entender a estrutura do
-  monorepo e dos serviços.
+- [Primeiros Passos](quickstart.md) — crie sua primeira tabela.
+- [O que é uma tabela](../tables/overview.md) — o conceito central da
+  plataforma.
