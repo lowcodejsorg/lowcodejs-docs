@@ -59,7 +59,7 @@ Docker para quem for hospedar a própria instância.
 
 ## Estrutura desta documentação
 
-- **Primeiros Passos** — tour da interface e primeira tabela.
+- **Primeiros Passos** — tour da interface e primeira tabela
 - **Tabelas** — campos, formatos, validações, relacionamentos, permissões.
 - **Visualizações** — os 9 estilos de exibição de uma tabela.
 - **Dashboards** — gráficos e métricas.
